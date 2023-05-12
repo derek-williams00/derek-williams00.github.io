@@ -15,6 +15,30 @@ const ProjectGrid = () => {
       title: 'Project 3',
       description: 'Description for Project 3',
     },
+    {
+      title: 'Project 3',
+      description: 'Description for Project 3',
+    },
+    {
+      title: 'Project 3',
+      description: 'Description for Project 3',
+    },
+    {
+      title: 'Project 3',
+      description: 'Description for Project 3',
+    },
+    {
+      title: 'Project 3',
+      description: 'Description for Project 3',
+    },
+    {
+      title: 'Project 3',
+      description: 'Description for Project 3',
+    },
+    {
+      title: 'Project 3',
+      description: 'Description for Project 3',
+    },
   ];
 
   return (
