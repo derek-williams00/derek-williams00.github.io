@@ -9,17 +9,17 @@ import './components/App.css';
 const App = () => {
   return (
     <div>
-      <div id="home">
         <Header />
-      </div>
-      <div id="about">
-        <Bio />
-      </div>
-      <div id="projects">
-        <ProjectGrid />
-      </div>
-      <div id="connect">
-        <Footer />
+      <div id="home">
+        <div id="about" className="top-spacer">
+          <Bio />
+        </div>
+        <div id="projects">
+          <ProjectGrid />
+        </div>
+        <div id="connect">
+          <Footer />
+        </div>
       </div>
     </div>
   );
