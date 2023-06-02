@@ -10,6 +10,8 @@ header {
     width: 100%;
     position: fixed;
     z-index: 999;
+    top: 0;
+    left: 0;
 }
   
 nav ul {
@@ -102,5 +104,5 @@ footer a:hover {
 }
   
 .top-spacer {
-    margin-top: 80px;
+    margin-top: 40px;
 }  
