@@ -71,7 +71,7 @@ nav li {
   /* Project Grid */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
     justify-content: center;
     padding: 20px;
@@ -82,6 +82,7 @@ nav li {
     border-radius: 5px;
     padding: 20px;
     text-align: center;
+    width: 400px;
 }
   
   /* Footer */
@@ -106,3 +107,28 @@ footer a:hover {
 .top-spacer {
     margin-top: 40px;
 }  
+
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+}
+  
+.github-img,
+.deployment-img,
+.devpost-img {
+    width: 50px;
+    height: 50px;
+}
+  

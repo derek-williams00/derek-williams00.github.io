@@ -6,6 +6,9 @@ import ProjectGrid from './components/ProjectGrid.jsx';
 import Footer from './components/Footer.jsx';
 import './components/App.css';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 const App = () => {
   return (
     <div>
