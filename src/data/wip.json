@@ -1,0 +1,21 @@
+[
+    {
+      "subtitle": "Senior Capstone Project",
+      "link": "",
+      "description": "Description for Project 1"
+    },
+    {
+      "title": "Mock Online Bank Website",
+      "subtitle": "CS 340 Database Project",
+      "time": "Spring 2023",
+      "image": "./images/bank.svg",
+      "github_link": "https://github.com/OvercastSolutions/banking-database-project#readme",
+      "description": "The project started as a database for my CS 340 course. I decided to continue working on it and make it into a full stack web application. The website is a mock online bank website that allows users to create an account, login, and perform basic banking functions. The website is built using Node.js, Express, and MySQL. The website is still a work in progress and I plan to add more features in the future."
+    },
+    {
+      "title": "Real Estate Market Analysis Tools",
+      "subtitle": "Summer 2023",
+      "description": "I am developing tools for Eleete Real Estate to help them analyze the real estate market. The tools are built using Python and the data is pulled from the RMLS API. The tools are used to analyze the real estate market in the Portland Metro Area and the data is used to create monthly market reports. The tools are still a work in progress and I plan to add more features in the future."
+    }
+]
+  

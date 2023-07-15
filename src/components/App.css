@@ -1,30 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
   
 header {
-    background-color: #1c2e4a;
-    padding: 1rem;
-    width: 100%;
+    background-color: #323e52;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     position: fixed;
+    width: 100%;
     z-index: 999;
     top: 0;
     left: 0;
 }
-  
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-}
-  
-nav li {
-    color: #fff;
-    font-weight: bold;
+
+nav {
+    background-color: #323e52;
 }
   
 .bio {
@@ -32,6 +18,7 @@ nav li {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
+    margin-top: 3rem;
 }
   
 .bio img {
@@ -50,16 +37,15 @@ nav li {
 nav a {
     color: #fff;
     text-decoration: none;
+    padding: 10px 0;
 }
   
 nav a:hover {
     text-decoration: underline;
 }
 
-/* Navigation */
 nav ul {
     display: flex;
-    justify-content: center;
     list-style-type: none;
     padding: 0;
 }
@@ -67,25 +53,44 @@ nav ul {
 nav li {
     margin: 0 10px;
 }
-  
-  /* Project Grid */
+
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
+    margin: 5px;
 }
   
 .project-card {
     background-color: #f0f0f0;
-    border-radius: 5px;
-    padding: 20px;
-    text-align: center;
-    width: 400px;
+    margin: 5px;
+    min-width: 400px;
+    min-height: 400px;
 }
-  
-  /* Footer */
+
+.project-card-header {
+    margin: 5px;
+}
+
+.project-card-title,
+.project-card-subtitle {
+    text-align: center;
+}
+
+
+.project-card-body {
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    margin: 5px;
+}
+
+.project-card-footer {
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
 footer {
     display: flex;
     justify-content: space-evenly;
@@ -103,32 +108,17 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-  
-.top-spacer {
-    margin-top: 40px;
-}  
 
+.my-brand {
+    margin: 0 20px;
+}
 
-.project-card {
+.card-links {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    position: relative;
 }
 
-.card-footer {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    position: absolute;
-    bottom: 0;
-    padding: 5px;
-}
-  
-.github-img,
-.deployment-img,
-.devpost-img {
-    width: 50px;
-    height: 50px;
-}
+
+
   

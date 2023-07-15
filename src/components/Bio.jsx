@@ -3,7 +3,9 @@ import React from 'react';
 const Bio = () => {
   return (
     <div className="bio">
-      <img src="/images/headshot.jpg" id="headshot" alt="Derek Williams" />
+      <div className="bio-image">
+        <img src="/images/headshot.jpg" id="headshot" alt="Derek Williams" />
+      </div>
       <div className="bio-text">
         <p>
         Hello, World! I'm Derek Williams, a Computer Science student with a systems option at Oregon State University, 

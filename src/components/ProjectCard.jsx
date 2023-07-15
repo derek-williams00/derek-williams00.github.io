@@ -1,29 +1,37 @@
 import React from 'react';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const ProjectCard = ({ project }) => {
   return (
-    <div className="project-card">
-      <h3>{project.title}</h3>
-      <h4>{project.subtitle}</h4>
-      {project.image ? (<img className="project-card-img" src={project.image} alt={project.title} />) : null}
-      <p>{project.description}</p>
+    <div className="card project-card">
 
-      <div className="card-footer">
+      <div className='projcet-card-header'>
+        <h3 className="project-card-title">{project.title}</h3>
+        <h4 className="project-card-subtitle">{project.subtitle}</h4>
+      </div>
+
+      <div className="project-card-body">
+        {project.image ? (<img className="project-card-img" src={project.image} alt={project.title} />) : null}
+        <p className="project-card-text">{project.description}</p>
+      </div>
+
+      <div className="project-card-footer">
         {project.github_link ? (
           <a href={project.github_link} target="_blank">
-            <img className="github-img" src={'/images/github-logo.png'} alt={'Github'} />
+            
           </a>
         ) : null}
 
         {project.deployment_link ? (
           <a href={project.deployment_link} target="_blank">
-            <img className="deployment-img" src={'/images/deployment-logo.png'} alt={'Deployment'} />
+            
           </a>
         ) : null}
 
         {project.devpost_link ? (
           <a href={project.devpost_link} target="_blank">
-            <img className="devpost-img" src={'/images/devpost-logo.png'} alt={'Devpost'} />
+            
           </a>
         ) : null}
       </div>

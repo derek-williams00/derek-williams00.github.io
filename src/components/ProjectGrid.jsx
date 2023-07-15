@@ -2,11 +2,15 @@ import React from 'react';
 import ProjectCard from './ProjectCard.jsx';
 import projects from './projects.json';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const ProjectGrid = () => {
   return (
-    <div className="project-grid">
+    <div className="">
       {projects.map((project, index) => (
-        <ProjectCard key={index} project={project} />
+        <div className="col col-lg">
+          <ProjectCard key={index} project={project} />
+        </div>
       ))}
     </div>
   );
