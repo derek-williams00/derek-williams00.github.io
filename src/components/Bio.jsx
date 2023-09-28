@@ -8,9 +8,9 @@ const Bio = () => {
       </div>
       <div className="bio-text">
         <p>
-        Hello, World! I'm Derek Williams, a Computer Science student with a systems option at Oregon State University, 
-        expected to graduate in 2024. This website serves as a testament to my journey, showcasing my projects,
-        accomplishments, and offering a glimpse into my world. I am eager to contribute my skills to any organization that values 
+        Hello, World! I'm Derek Williams, a Computer Science student at Oregon State University, 
+        expected to graduate in 2024. This website showcases my journey, projects, accomplishments,
+        and ongoing work. I am eager to contribute my skills to any organization that values 
         innovation, creativity, and positive social impact.
         </p>
       </div>

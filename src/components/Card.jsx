@@ -7,6 +7,7 @@ const Card = ({ item }) => {
         <img src={item.image} className="card-img-top" alt={item.title} />
       </a>}
       <div className="card-body">
+        <h6 className="card-time">{item.time}</h6>
         <h5 className="card-title">{item.title}</h5>
         <h6 className="card-subtitle">{item.subtitle}</h6>
         <p className="card-text">{item.description}</p>

@@ -9,8 +9,8 @@ header {
     left: 0;
 }
 
-nav {
-    background-color: #323e52;
+body {
+    background-color: #c0c0c0;
 }
   
 .bio {
@@ -18,7 +18,7 @@ nav {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
   
 .bio img {
@@ -52,6 +52,10 @@ nav ul {
   
 nav li {
     margin: 0 10px;
+}
+
+.grid-container {
+    padding: 30px;
 }
 
 .project-grid {
@@ -119,6 +123,23 @@ footer a:hover {
     align-items: center;
 }
 
+.card-time {
+    float: right;
+    font-weight: lighter;
+}
 
+.card-img-top {
+    width: 100%;
+    /*height: 18vw;*/
+}
 
-  
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 40vh;
+    opacity: 0.65;
+}
+

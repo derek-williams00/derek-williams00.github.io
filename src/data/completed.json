@@ -4,8 +4,10 @@
       "title": "Sound Conductor",
       "subtitle": "Google's Atlas Madness Hackathon",
       "time": "Summer 2023",
+      "image": "./images/sound-conductor.png",
       "devpost_link": "https://devpost.com/software/automatically-generate-blog-post-from-youtube-video",
       "github_link": "https://github.com/Nyumat/iSpyAI#readme",
+      "deployment_link": "https://sound-conductor-4bsnr75vpq-uc.a.run.app/",
       "description": ""
     },
     {
@@ -19,24 +21,13 @@
       "description": "iSpyAI is a tool that converts YouTube videos into blog posts"
     },
     {
-    },
-    {
-    },
-    {
-    },
-    {
-    },
-    {
-    },
-    {
-    },
-    {
-    },
-    {
-    },
-    {
-    },
-    {
+      "title": "Are You Smarter Than AI?",
+      "subtitle": "AWS Amplify Hackathon",
+      "time": "Summer 2023",
+      "image": "./images/smarter_than_ai.png",
+      "devpost_link": "https://hackathoners0.hashnode.dev/are-you-smarter-than-ai",
+      "github_link": "https://github.com/Sankalpsp21/Smarter-Than-AI",
+      "description": "A multiplayer Turing test game where you try to guess if the other player is a human or an AI."
     }
 ]
   

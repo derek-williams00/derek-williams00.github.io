@@ -3,9 +3,11 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 const NavBar = () => {
   return (
-    <Navbar bg="light" variant="light" fixed="top">
+    <Navbar bg="dark" data-bs-theme="dark" fixed="top">
       <Navbar.Brand href="#home">
-        <span className="my-brand">Derek Williams</span>
+        <span className="my-brand">
+           Derek Williams
+        </span>
       </Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="#completed">Completed Projects</Nav.Link>

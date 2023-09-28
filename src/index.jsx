@@ -4,6 +4,7 @@ import NavBar from './components/NavBar.jsx';
 import Bio from './components/Bio.jsx';
 import Grid from './components/Grid.jsx';
 import Footer from './components/Footer.jsx';
+import BackgroundImage from './components/BackgroundImage.jsx';
 import './components/App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,20 +20,26 @@ const App = () => {
     <>
       <NavBar />
       <Bio />
+      <BackgroundImage
+        src="./images/robotics_trophy.jpg"
+      />
       <Grid
         id="completed"
         title="Completed Projects"
         items={completed}
+      />
+      <Grid
+        id="wip"
+        title="Works in Progress"
+        items={wip}
       />
       <Grid 
         id="experience"
         title="Experiences"
         items={experiences}
       />
-      <Grid
-        id="wip"
-        title="Works in Progress"
-        items={wip}
+      <BackgroundImage
+        src="./images/groundstation.jpg"
       />
       <Footer />
     </>
