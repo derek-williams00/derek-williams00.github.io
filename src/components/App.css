@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
   
 .bio img {
@@ -56,6 +56,7 @@ nav li {
 
 .grid-container {
     padding: 30px;
+    margin: 20px;
 }
 
 .project-grid {
@@ -139,7 +140,7 @@ footer a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 
-    min-height: 40vh;
-    opacity: 0.65;
+    min-height: 35vh;
+    opacity: 0.85;
 }
 

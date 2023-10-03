@@ -1,5 +1,12 @@
 [
     {
+      "title": "AI Gesture Art",
+      "subtitle": "OpenCV Hackathon",
+      "time": "Summer - Fall 2023",
+      "image": "./images/ai_gesture_art.jpeg",
+      "github_link": "https://github.com/tobyloki/OpenCVApp"
+    },
+    {
       "title": "Mock Online Bank Website",
       "subtitle": "CS 340 Database Project",
       "time": "Spring 2023",
@@ -11,11 +18,12 @@
       "title": "Real Estate Analysis Tools",
       "time": "Summer 2023",
       "image": "./images/real-estate.png",
-      "description": "I am developing tools for Eleete Real Estate to help them analyze the real estate market. The tools are built using Python and the data is pulled from the RMLS API. The tools are used to analyze the real estate market in the Portland Metro Area and the data is used to create monthly market reports. The tools are still a work in progress and I plan to add more features in the future."
+      "description": "I am developing tools for Eleete Real Estate to help them analyze the real estate market. The tools are built using Python and the data is accessed from the RMLS API. The tools are used to analyze the real estate market in the Portland Metro Area and the data is used to create monthly market reports. The tools are still a work in progress and I plan to add more features in the future."
     },
     {
       "subtitle": "Senior Capstone",
-      "time": "Fall 2023 - Spring 2024"
+      "time": "Fall 2023 - Spring 2024",
+      "image": "./images/capstone.jpeg"
     }
 ]
   
