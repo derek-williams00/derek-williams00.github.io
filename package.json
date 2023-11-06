@@ -4,8 +4,8 @@
   "description": "This is a professional portfolio website implemented in React",
   "main": "index.js",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -t true",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
@@ -35,6 +35,7 @@
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
     "gh-pages": "^6.0.0",
+    "html-webpack-plugin": "^5.5.3",
     "style-loader": "^3.3.2",
     "webpack-cli": "^5.0.2",
     "webpack-dev-server": "^4.13.3"
