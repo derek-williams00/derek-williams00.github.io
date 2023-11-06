@@ -4,7 +4,8 @@
       "subtitle": "OpenCV Hackathon",
       "time": "Summer - Fall 2023",
       "image": "./images/ai_gesture_art.jpeg",
-      "github_link": "https://github.com/tobyloki/OpenCVApp"
+      "github_link": "https://github.com/tobyloki/OpenCVApp",
+      "description": "An Android app utilizing OpenCV and generative AI to create works of art from hand gestures."
     },
     {
       "title": "Mock Online Bank Website",
@@ -15,15 +16,11 @@
       "description": "The project started as a database for my CS 340 course. I decided to continue working on it and make it into a full stack web application. The website is a mock online bank website that allows users to create an account, login, and perform basic banking functions. The website is built using Node.js, Express, and MySQL. The website is still a work in progress and I plan to add more features in the future."
     },
     {
-      "title": "Real Estate Analysis Tools",
-      "time": "Summer 2023",
-      "image": "./images/real-estate.png",
-      "description": "I am developing tools for Eleete Real Estate to help them analyze the real estate market. The tools are built using Python and the data is accessed from the RMLS API. The tools are used to analyze the real estate market in the Portland Metro Area and the data is used to create monthly market reports. The tools are still a work in progress and I plan to add more features in the future."
-    },
-    {
-      "subtitle": "Senior Capstone",
+      "title": "Parchment by CapturedSun",
+      "subtitle": "Senior Capstone - Internship",
       "time": "Fall 2023 - Spring 2024",
-      "image": "./images/capstone.jpeg"
+      "image": "./images/parchment.png",
+      "description": "Parchment is an innovative application that transforms the filesystem and desktop, seemlessly integrating local and web content. Files, documents, notes, and more are all organized based on content rather than its medium."
     }
 ]
   

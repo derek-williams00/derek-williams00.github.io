@@ -15,17 +15,19 @@ const Card = ({ item }) => {
             {item.deployment_link && <span className="deployment-link">
                 <a href={item.deployment_link} target="_blank">
                     <img src="./images/rocket-takeoff.svg" alt="deployment link" />
+                    Deployment
                 </a>
             </span>}
             {item.github_link && <span className="github-link">
                 <a href={item.github_link} target="_blank">
                     <img src="./images/github.svg" alt="github link" />
-
+                    Repo
                 </a>
             </span>}
             {item.devpost_link && <span className="devpost-link">
                 <a href={item.devpost_link} target="_blank">
                     <img src="./images/nut.svg" alt="devpost link" />
+                    Post
                 </a>
             </span>}
         </div>

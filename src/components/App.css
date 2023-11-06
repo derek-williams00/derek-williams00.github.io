@@ -12,6 +12,10 @@ header {
 body {
     background-color: #c0c0c0;
 }
+
+a:link {
+    text-decoration: none;
+}
   
 .bio {
     display: flex;

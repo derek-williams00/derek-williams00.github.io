@@ -1,12 +1,26 @@
-[
+[   
     {
-      "title": "ICPC",
-      "link": "",
-      "description": ""
+      "title": "Tigard High School Technology Team",
+      "subtitle": "FTC 3965 - Lead Programmer",
+      "time": "2015 - 2018",
+      "image": "./images/ftc.jpeg",
+      "description": "Robotics set me on the path to becoming a software engineer. I learned so much about programming, engineering, and teamwork. I was the lead programmer for the team for 4 years and I loved every minute of it. I am so grateful for the experience and guidance from my mentors and teachers. I look forward to mentoring a team someday in the future."
     },
     {
-      "title": "High School Robotics Team",
-      "description": ""
+      "title": "International Collegiate Programming Contest",
+      "link": "",
+      "description": "I love competative programming! It is such a fun way to enhance my skills in a collaborative and competative environment. I have competed in the ICPC twice and I am looking forward to competing again next year."
+    },
+    {
+      "title": "OSU's ACM Chapter",
+      "time": "Fall 2019 - Present",
+      "description": "The ACM has been a great way to network with other students, develop my skills, and find new opportunities. I have been a member of the ACM since my first year at OSU and I have always loved the supportive environment it promotes. I look forward to attending the club and helping other students find their passion for computer science."
+    },
+    {
+      "title": "App Development Club",
+      "time": "Spring 2023 - Present",
+      "description": "The App Dev club at OSU has become another great way to network with other students and build great apps."
     }
+
 ]
   

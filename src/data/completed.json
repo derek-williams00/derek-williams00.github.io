@@ -1,14 +1,21 @@
 [
-
+    {
+      "title": "Nexus",
+      "subtitle": "CalHacks 10.0 Hackathon",
+      "time": "Fall 2023",
+      "image": "./images/nexus.png",
+      "devpost_link": "https://devpost.com/software/nexus-27zakp",
+      "github_link": "https://github.com/Sankalpsp21/Nexus",
+      "description": "A social networking and voice chatting application that connects users with common challenges and interests using AI."
+    },
     {
       "title": "Sound Conductor",
       "subtitle": "Google's Atlas Madness Hackathon",
       "time": "Summer 2023",
       "image": "./images/sound-conductor.png",
-      "devpost_link": "https://devpost.com/software/automatically-generate-blog-post-from-youtube-video",
-      "github_link": "https://github.com/Nyumat/iSpyAI#readme",
+      "github_link": "https://github.com/Sankalpsp21/SoundConductor",
       "deployment_link": "https://sound-conductor-4bsnr75vpq-uc.a.run.app/",
-      "description": ""
+      "description": "An IoT application that allows users to initate smart home actions using voice commands."
     },
     {
       "title": "iSpyAI",
@@ -18,7 +25,7 @@
       "devpost_link": "https://devpost.com/software/automatically-generate-blog-post-from-youtube-video",
       "github_link": "https://github.com/Nyumat/iSpyAI#readme",
       "deployment_link": "https://ispyai0.onrender.com/",
-      "description": "iSpyAI is a tool that converts YouTube videos into blog posts"
+      "description": "A tool that converts YouTube videos into blog posts"
     },
     {
       "title": "Are You Smarter Than AI?",
