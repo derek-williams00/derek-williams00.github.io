@@ -1,10 +1,12 @@
 import React from 'react';
 
+import headshot from '../../public/images/headshot.jpg';
+
 const Bio = () => {
   return (
     <div className="bio">
       <div className="bio-image">
-        <img src="public/images/headshot.jpg" id="headshot" alt="Derek Williams" />
+        <img src={headshot} id="headshot" alt="Derek Williams" />
       </div>
       <div className="bio-text">
         <p>
