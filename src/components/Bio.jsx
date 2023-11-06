@@ -4,7 +4,7 @@ const Bio = () => {
   return (
     <div className="bio">
       <div className="bio-image">
-        <img src="/images/headshot.jpg" id="headshot" alt="Derek Williams" />
+        <img src="public/images/headshot.jpg" id="headshot" alt="Derek Williams" />
       </div>
       <div className="bio-text">
         <p>
