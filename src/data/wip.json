@@ -11,7 +11,7 @@
       "title": "Mock Online Bank Website",
       "subtitle": "CS 340 Database Project",
       "time": "Spring 2023",
-      "image": "./images/bank-clip-art.jpeg",
+      "image": "./images/banking-database-project.png",
       "github_link": "https://github.com/OvercastSolutions/banking-database-project#readme",
       "description": "The project started as a database for my CS 340 course. I decided to continue working on it and make it into a full stack web application. The website is a mock online bank website that allows users to create an account, login, and perform basic banking functions. The website is built using Node.js, Express, and MySQL. The website is still a work in progress and I plan to add more features in the future."
     },

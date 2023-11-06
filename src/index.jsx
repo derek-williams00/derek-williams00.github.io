@@ -26,7 +26,7 @@ const App = () => {
         title="Completed Projects"
         items={completed}
       />
-      <BackgroundImage src="./images/ocilloscope.jpg" />
+      <BackgroundImage src="./images/nexus_team2.jpg" />
       <Grid
         id="wip"
         title="Works in Progress"

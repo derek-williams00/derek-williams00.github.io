@@ -147,3 +147,20 @@ footer a:hover {
     opacity: 0.85;
 }
 
+/* Media query for mobile devices */
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+    .parallax {
+        /* Disable the fixed background on mobile */
+        background-attachment: scroll;
+
+        /* Adjust background-size if needed, 'cover' might still be fine */
+        background-size: cover;
+
+        /* Set a specific background-position if the default 'center' is not suitable for mobile */
+        background-position: center;
+
+        /* Optional: Adjust the min-height for smaller screens */
+        min-height: 25vh; /* or any other value that fits your design */
+    }
+}
+
