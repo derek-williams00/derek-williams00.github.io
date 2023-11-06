@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   entry: './src/index.jsx',
   output: {
-    path: __dirname + '/dist',
+    path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
     publicPath: '/',
   },
@@ -30,10 +30,6 @@ module.exports = {
       directory: path.join(__dirname, 'public'),
     },
     historyApiFallback: true,
-  },
-  output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: 'bundle.js'
   },
 };
 
