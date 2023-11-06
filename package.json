@@ -12,12 +12,14 @@
     "type": "git",
     "url": "git+ssh://git@github.com/derek-williams00/portfolio.git"
   },
+  "predeploy" : "npm run build",
+  "deploy" : "gh-pages -d build",
   "author": "Derek R. Williams",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/derek-williams00/portfolio/issues"
+    "url": "https://github.com/derek-williams00/derek-williams00.github.io/issues"
   },
-  "homepage": "https://github.com/derek-williams00/portfolio#readme",
+  "homepage": "https://github.com/derek-williams00/derek-williams.github.io#readme",
   "dependencies": {
     "bootstrap": "^5.3.0",
     "bootstrap-icons": "^1.10.5",
