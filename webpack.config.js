@@ -31,5 +31,9 @@ module.exports = {
     },
     historyApiFallback: true,
   },
+  output: {
+    path: path.resolve(__dirname, 'build'),
+    filename: 'bundle.js'
+  },
 };
 
