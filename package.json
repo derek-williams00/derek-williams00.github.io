@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "derek-williams00.github.io",
   "version": "1.0.0",
-  "description": "This is a personal portfolio website implemented in React",
+  "description": "This is a professional portfolio website implemented in React",
   "main": "index.js",
   "scripts": {
     "predeploy" : "npm run build",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/derek-williams00/portfolio.git"
+    "url": "git+ssh://github.com/derek-williams00/derek-williams00.github.io/"
   },
   "author": "Derek R. Williams",
   "license": "ISC",
