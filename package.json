@@ -4,6 +4,8 @@
   "description": "This is a personal portfolio website implemented in React",
   "main": "index.js",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
@@ -12,8 +14,6 @@
     "type": "git",
     "url": "git+ssh://git@github.com/derek-williams00/portfolio.git"
   },
-  "predeploy" : "npm run build",
-  "deploy" : "gh-pages -d build",
   "author": "Derek R. Williams",
   "license": "ISC",
   "bugs": {
