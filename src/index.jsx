@@ -20,13 +20,13 @@ const App = () => {
     <>
       <NavBar />
       <Bio />
-      <BackgroundImage src="./images/robotics_trophy.jpg" />
+      <BackgroundImage src="./images/nexus_team2.jpg" />
       <Grid
         id="completed"
         title="Completed Projects"
         items={completed}
       />
-      <BackgroundImage src="./images/nexus_team2.jpg" />
+      <BackgroundImage src="./images/robotics_trophy.jpg" />
       <Grid
         id="wip"
         title="Works in Progress"

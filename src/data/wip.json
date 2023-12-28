@@ -1,13 +1,5 @@
 [
     {
-      "title": "AI Gesture Art",
-      "subtitle": "OpenCV Hackathon",
-      "time": "Summer - Fall 2023",
-      "image": "./images/ai_gesture_art.jpeg",
-      "github_link": "https://github.com/tobyloki/OpenCVApp",
-      "description": "An Android app utilizing OpenCV and generative AI to create works of art from hand gestures."
-    },
-    {
       "title": "Mock Online Bank Website",
       "subtitle": "CS 340 Database Project",
       "time": "Spring 2023",

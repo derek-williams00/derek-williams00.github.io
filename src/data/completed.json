@@ -9,6 +9,23 @@
       "description": "A social networking and voice chatting application that connects users with common challenges and interests using AI."
     },
     {
+      "title": "AI Gesture Art",
+      "subtitle": "OpenCV Hackathon",
+      "time": "Summer - Fall 2023",
+      "image": "./images/ai_gesture_art.jpeg",
+      "github_link": "https://github.com/tobyloki/OpenCVApp",
+      "description": "An Android app utilizing OpenCV and generative AI to create works of art from hand gestures."
+    },
+    {
+      "title": "Github Rewards Program",
+      "subtitle": "Chainlink Hackathon",
+      "time": "Fall 2023",
+      "image": "./images/github-rewards-program.png",
+      "devpost_link": "https://devpost.com/software/github-rewards-program",
+      "github_link": "https://github.com/derek-williams00/GithubRewardsProgram",
+      "description": "A Github rewards program that incentivizes developers to contribute to open source projects."
+    },
+    {
       "title": "Sound Conductor",
       "subtitle": "Google's Atlas Madness Hackathon",
       "time": "Summer 2023",
