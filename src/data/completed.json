@@ -14,6 +14,7 @@
       "time": "Summer - Fall 2023",
       "image": "./images/ai_gesture_art.jpeg",
       "github_link": "https://github.com/tobyloki/OpenCVApp",
+      "devpost_link": "https://www.hackster.io/hackathoners/ai-gesture-art-d36827",
       "description": "An Android app utilizing OpenCV and generative AI to create works of art from hand gestures."
     },
     {
