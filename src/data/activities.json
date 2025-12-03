@@ -1,0 +1,25 @@
+[
+  {
+    "title": "HP Innovator Award",
+    "subtitle": "RAG graph architectures",
+    "time": "2025",
+    "description": "Awarded for RAG graph architectures supporting low-latency augmentation to AI coding tools."
+  },
+  {
+    "title": "Nexus — CalHacks 10.0",
+    "subtitle": "Grand Prize Winner",
+    "time": "Fall 2023",
+    "description": "Social networking and voice-chat platform using AI to match users based on shared life experiences and interests."
+  },
+  {
+    "title": "ICPC",
+    "subtitle": "Competitive Programming",
+    "description": "Competed twice in the ICPC regional contests."
+  },
+  {
+    "title": "Tigard High School Technology Team",
+    "subtitle": "FTC 3965 - Lead Programmer",
+    "time": "2015 - 2018",
+    "description": "Lead programmer for 4 years; early experience with robotics and team engineering."
+  }
+]

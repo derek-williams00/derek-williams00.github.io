@@ -13,6 +13,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import completed from './data/completed.json';
 import experiences from './data/experiences.json';
 import wip from './data/wip.json';
+import activities from './data/activities.json';
+import Activities from './components/Activities.jsx';
+import Resume from './components/Resume.jsx';
 
 
 const App = () => {
@@ -38,6 +41,10 @@ const App = () => {
         title="Experiences"
         items={experiences}
       />
+      <BackgroundImage src="./images/trophy.jpg" />
+      <Activities />
+      <BackgroundImage src="./images/capstone.jpeg" />
+      <Resume />
       <Footer />
     </>
   );

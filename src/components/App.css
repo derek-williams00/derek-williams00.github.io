@@ -24,6 +24,27 @@ a:link {
     padding: 2rem;
     margin-top: 3rem;
 }
+
+/* Ensure bio image and text align consistently and center under the profile image */
+.bio {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bio-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.bio-text {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
   
 .bio img {
     width: 150px;
@@ -145,6 +166,115 @@ footer a:hover {
 
     min-height: 35vh;
     opacity: 0.85;
+}
+
+/* Activities timeline styles */
+.activities-container {
+    padding: 30px;
+    margin: 20px;
+}
+
+.timeline {
+    list-style: none;
+    position: relative;
+    padding-left: 40px;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 18px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #e0e0e0;
+}
+
+.timeline-item {
+    position: relative;
+    margin: 20px 0 20px 40px;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    left: -36px;
+    top: 8px;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 3px solid #323e52;
+    border-radius: 50%;
+}
+
+.timeline-content {
+    background: #f9f9f9;
+    padding: 12px 16px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.timeline .time {
+    float: right;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+.timeline .subtitle {
+    margin-top: 6px;
+    color: #666;
+    font-weight: normal;
+}
+
+@media (max-width: 768px) {
+    .timeline {
+        padding-left: 10px;
+    }
+
+    .timeline-item {
+        margin-left: 20px;
+    }
+
+    .timeline-item:before {
+        left: -28px;
+    }
+}
+
+/* Social links in header and under Bio */
+.social-links-header .nav-link {
+    color: #0d6efd !important; /* bootstrap primary blue */
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.bio-socials {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.bio-socials a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.bio-socials a:hover {
+    text-decoration: underline;
+}
+
+.external-icon {
+    width: 12px;
+    height: 12px;
+    margin-left: 6px;
+    filter: none;
+}
+
+/* Center the brand text in the navbar */
+.bio-text {
+    text-align: center;
 }
 
 /* Media query for mobile devices */

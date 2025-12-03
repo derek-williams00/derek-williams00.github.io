@@ -1,0 +1,50 @@
+Derek Williams
+Software Engineer - AI Developer Experience, Agentic Systems, Enterprise Tooling
+Portland, OR - U.S. Citizen - Open to relocation anywhere in the U.S.
+Website: https://derek-williams00.github.io
+
+Summary
+Software engineer specializing in AI-driven developer experience, agentic systems, and secure enterprise tooling, with
+expertise in scalable retrieval pipelines, enterprise-context delivery, and AI integration across developer communities.
+
+Skills
+Languages: Python, TypeScript, JavaScript, SQL, C/C++, Java, Go, C#, Swift | Frameworks: React, Node.js, Express,
+Flask, Redux, .NET, FastMCP | AI/Systems: RAG, Vector DBs, MCP, CUDA, AI Eval Pipelines, MLOps | Platforms:
+Git, Docker, Kubernetes, Linux, AWS, Azure, GitOps, IssueOps, CI/CD, Jira | Databases: MySQL, PostgreSQL,
+MongoDB, MariaDB, SQLite, SQL Server, Chroma DB | Competencies: Systems design, secure-by-default architecture,
+auth flows, agentic SDLC, agile development
+
+Professional Experience
+HP Inc. Software Applications Engineer - AI Platform & Developer Experience Engineer
+February 2025 - Present
+●​ Earned HP Innovator Award for RAG graph architectures supporting low-latency augmentation of AI coding tools.
+●​ Prevented significant costs (potentially exceeding $1M) by evaluating and validating productivity impacts of GenAI
+coding-assistant fine-tuned custom models, directly informing licensing strategy.
+●​ Delivered MCP-based developer platforms enabling secure enterprise-context delivery for AI coding environments
+and agentic workflows.
+●​ Supported GitHub Enterprise platforms serving 10,000+ engineers, tens of thousands of active repositories, and
+8,000+ Copilot-AI users.
+●​ Designed scalable retrieval pipelines using vector DBs, authenticated API layers, and enterprise authorization models.
+●​ Developed integration tooling connecting enterprise knowledge to AI coding assistants, improving developer
+productivity and code quality.
+●​ Provided office hours guidance supporting AI workflows and prompt-engineering best practices.
+●​ Presented AI-driven developer-experience strategy at internal conferences and leadership events.
+●​ Rewrote an MCP server from Python into a production-grade Golang service with Double-PKCE auth and distributed
+context retrieval.
+
+HP Inc. Software AI Intern​
+June 2024 - January 2025
+●​ Led evaluations of AI coding tools via automated assessment pipelines, enterprise datasets, and hallucination/security
+analyses
+●​ Supported enterprise developer platforms including Stack Overflow, developer portals, and knowledge systems.
+●​ Produced instructional content showcasing effective GitHub Copilot usage, including prompt-engineering strategies,
+correction loops, and model-guided code generation.
+
+Projects
+Nexus - React, Node.js, TypeScript, Tailwind
+CalHacks 10.0 Grand Prize Winner
+Social networking and voice-chat platform using AI to match users based on shared life experiences and interests.
+
+Education
+Bachelor of Science, Computer Science
+Oregon State University — Graduated Dec 2024 (ABET-accredited program)

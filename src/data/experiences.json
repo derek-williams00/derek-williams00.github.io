@@ -1,4 +1,16 @@
-[   
+[
+    {
+      "title": "HP Inc.",
+      "subtitle": "Software Applications Engineer - AI Platform & Developer Experience Engineer",
+      "time": "Feb 2025 - Present",
+      "description": "Earned HP Innovator Award for RAG graph architectures; evaluated productivity impacts of GenAI coding-assistant fine-tuned models to inform licensing strategy; delivered MCP-based developer platforms enabling secure enterprise-context delivery; supported GitHub Enterprise platforms serving 10,000+ engineers; designed scalable retrieval pipelines using vector DBs and enterprise authorization models; rewrote an MCP server from Python into production-grade Golang with Double-PKCE auth."
+    },
+    {
+      "title": "HP Inc.",
+      "subtitle": "Software AI Intern",
+      "time": "Jun 2024 - Jan 2025",
+      "description": "Led evaluations of AI coding tools via automated assessment pipelines and enterprise datasets; performed hallucination and security analyses; supported enterprise developer platforms, portals, and knowledge systems."
+    },
     {
       "title": "Tigard High School Technology Team",
       "subtitle": "FTC 3965 - Lead Programmer",
@@ -9,18 +21,17 @@
     {
       "title": "International Collegiate Programming Contest",
       "link": "",
-      "description": "I love competative programming! It is such a fun way to enhance my skills in a collaborative and competative environment. I have competed in the ICPC twice and I am looking forward to competing again next year."
+      "description": "I love competitive programming. It is a fun way to enhance skills in a collaborative and competitive environment. I have competed in the ICPC twice and I look forward to competing again."
     },
     {
       "title": "OSU's ACM Chapter",
       "time": "Fall 2019 - Present",
-      "description": "The ACM has been a great way to network with other students, develop my skills, and find new opportunities. I have been a member of the ACM since my first year at OSU and I have always loved the supportive environment it promotes. I look forward to attending the club and helping other students find their passion for computer science."
+      "description": "The ACM has been a great way to network with other students, develop my skills, and find new opportunities. I have been a member since my first year at OSU and I enjoy the supportive environment."
     },
     {
       "title": "App Development Club",
       "time": "Spring 2023 - Present",
-      "description": "The App Dev club at OSU has become another great way to network with other students."
+      "description": "The App Dev club at OSU has been a great way to network with other students."
     }
-
 ]
   
