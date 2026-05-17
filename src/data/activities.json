@@ -3,60 +3,52 @@
     "title": "FTC Robotics - Tigard High School",
     "subtitle": "Team 3965 - Lead Programmer",
     "time": "2015 - 2018",
-    "type": "milestone",
     "images": ["./images/ocilloscope_cropped.jpg", "./images/trophy_cropped.jpg"],
-    "description": "Lead programmer for four years on the FTC robotics team. First serious experience with software, hardware, and building systems that had to work under pressure. The beginning of a long path in engineering."
+    "description": "Lead programmer for four years on the FTC robotics team. Developed experience with software, hardware, and building technology that had to work under pressure. The beginning of a long path in engineering."
   },
   {
     "title": "Eclipse Balloon Launch",
     "subtitle": "High School Engineering Project",
     "time": "2017",
-    "type": "milestone",
     "images": ["./images/groundstation_cropped.jpg"],
-    "description": "Contributed to a high-altitude balloon launch project tied to the 2017 solar eclipse. Built and operated a ground station with a motorized tracking dish to maintain contact with the balloon payload as it ascended through the atmosphere."
+    "description": "Contributed to a high-altitude balloon launch project to capture imagery and data for the 2017 solar eclipse. Built and operated a ground station to maintain contact with the balloon payload as it ascended through the atmosphere."
   },
   {
     "title": "Oregon State University",
     "subtitle": "B.S. Computer Science, College of Engineering - enrolled",
     "time": "Fall 2019",
-    "type": "milestone",
     "images": ["./images/Oregon_State_University.jpg"],
-    "description": "Enrolled in the ABET-accredited CS program at OSU's College of Engineering. Coursework includes computer architecture, algorithms, databases, software engineering, cryptography, and AI. Active in CS community and competitive programming."
+    "description": "Enrolled in the ABET-accredited CS Systems program at OSU's College of Engineering. Coursework includes computer architecture, algorithms, databases, software engineering, cryptography, and AI. Active in CS community and competitive programming."
   },
   {
     "title": "OSU ACM Chapter",
     "subtitle": "Member",
     "time": "2019 - 2024",
-    "type": "activity",
     "description": "Involved throughout undergrad - competitive programming, talks, and connecting with the broader CS community at OSU."
   },
   {
     "title": "ICPC - Regional Competitor",
     "subtitle": "International Collegiate Programming Contest",
-    "time": "2021, 2022",
-    "type": "activity",
+    "time": "2019, 2020, 2023",
     "images": ["./images/derek_icpc.JPG", "./images/icpc_team.jpg"],
-    "description": "Competed in ICPC regional contests twice. Collaborative algorithmic problem-solving under competitive conditions."
+    "description": "Competed in ICPC regional contests. Collaborative algorithmic problem-solving under competitive conditions."
   },
   {
     "title": "App Development Club - OSU",
     "subtitle": "Member",
     "time": "2023 - 2024",
-    "type": "activity",
     "description": "Shipped side projects with other students and explored product thinking alongside coursework."
   },
   {
     "title": "Hackathon Circuit",
     "subtitle": "CalHacks, AWS Amplify, OSU, OpenCV, Chainlink",
     "time": "2022 - 2024",
-    "type": "activity",
     "description": "Competed in multiple collegiate hackathons across AI, voice interfaces, blockchain, and generative art. Sharpened rapid prototyping and team coordination under time pressure."
   },
   {
     "title": "CalHacks 10.0 - Grand Prize Winner",
     "subtitle": "Nexus - Social AI Networking Platform",
     "time": "Fall 2023",
-    "type": "milestone",
     "images": ["./images/nexus_team_cropped.jpeg"],
     "description": "Built Nexus at UC Berkeley's CalHacks 10.0 and won the Grand Prize. A social networking and voice-chat platform that uses AI to match users based on shared life experiences and interests."
   },
@@ -64,30 +56,26 @@
     "title": "Oregon State University - Graduated",
     "subtitle": "B.S. Computer Science, GPA 3.2",
     "time": "2024",
-    "type": "milestone",
-        "images": ["./images/degree.jpg"],
+    "images": ["./images/degree.jpg"],
     "description": "Completed the ABET-accredited program with coursework spanning systems, algorithms, databases, and software engineering. Senior capstone internship at CapturedSun."
   },
   {
     "title": "Software AI Intern - HP Inc.",
     "subtitle": "AI Evaluation & Developer Tooling",
     "time": "Jun 2024 - Jan 2025",
-    "type": "milestone",
     "images": ["./images/HP_sign_photo.jpg"],
-    "description": "First professional role. Led evaluations of AI coding tools via automated pipelines and enterprise datasets. Performed hallucination and security analyses. Produced instructional content on effective GitHub Copilot usage and prompt-engineering strategies."
+    "description": "First professional role. Led evaluations of AI coding tools via automated pipelines and enterprise datasets. Performed performance, hallucination, and security analyses. Produced instructional content on effective GitHub Copilot usage and prompt-engineering strategies."
   },
   {
     "title": "Software Applications Engineer - HP Inc.",
     "subtitle": "AI Platforms & Developer Experience",
     "time": "Feb - Dec 2025",
-    "type": "milestone",
     "description": "Earned HP Innovator Award for RAG graph architectures. Delivered MCP-based developer platforms serving 10,000+ engineers. Evaluated fine-tuned coding model productivity impacts, informing licensing strategy."
   },
   {
     "title": "Machine Learning Engineer - HP Inc.",
     "subtitle": "AI Systems & Production Platforms",
     "time": "Dec 2025 - Present",
-    "type": "milestone",
-    "description": "Building domain-specific AI systems for HP's microfluidic chip manufacturing operations. RAG pipelines and agentic workflows automate fab incident resolution and preserve deep manufacturing domain expertise at enterprise scale."
+    "description": "Building domain-specific AI systems for HP's microfluidic chip manufacturing operations. RAG pipelines and agentic workflows automate fab incident resolution and preserve deep manufacturing domain expertise."
   }
 ]

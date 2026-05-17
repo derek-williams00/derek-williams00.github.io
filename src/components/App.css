@@ -369,39 +369,14 @@ header nav {
 .timeline-item::before {
   content: '';
   position: absolute;
-  left: -4px;
-  top: 7px;
-  width: 8px;
-  height: 8px;
-  background: var(--color-slate);
-  border-radius: 50%;
-  border: 2px solid var(--color-bg);
-}
-
-/* Major milestones - larger filled dot in deep navy */
-.timeline-milestone::before {
-  width: 11px;
-  height: 11px;
   left: -5px;
   top: 6px;
+  width: 10px;
+  height: 10px;
   background: var(--color-navy);
+  border-radius: 50%;
   border: 2px solid var(--color-bg);
   box-shadow: 0 0 0 1px var(--color-border);
-}
-
-/* Supporting activities - hollow dot */
-.timeline-activity::before {
-  background: var(--color-bg);
-  border: 2px solid var(--color-border);
-}
-
-.timeline-activity .timeline-content h5 {
-  font-weight: 500;
-  color: var(--color-gray);
-}
-
-.timeline-activity .timeline-content p {
-  color: #64748B;
 }
 
 .timeline-content {
@@ -550,6 +525,13 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.footer-disclaimer {
+  max-width: var(--max-width);
+  margin: 12px auto 0;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
 }
 
 footer a {

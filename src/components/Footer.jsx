@@ -11,6 +11,9 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/derek-williams-116072148/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </span>
       </div>
+      <div className="footer-disclaimer">
+        The information expressed on this site is my own and does not reflect the views of my employer.
+      </div>
     </footer>
   );
 };

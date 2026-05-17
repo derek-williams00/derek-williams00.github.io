@@ -7,7 +7,7 @@ const Activities = () => {
       <h2>Journey</h2>
       <ul className="timeline">
         {activities.map((a, i) => (
-          <li key={i} className={`timeline-item ${a.type === 'milestone' ? 'timeline-milestone' : 'timeline-activity'}`}>
+          <li key={i} className="timeline-item">
             <div className="timeline-content">
               <h5>
                 {a.title} {a.time && <span className="time">{a.time}</span>}

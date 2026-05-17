@@ -10,11 +10,11 @@ const Bio = () => {
       <h1>Derek Williams</h1>
       <p className="bio-role">AI/ML Software Engineer</p>
       <p>
-        AI engineer specializing in domain-specific LLM systems, retrieval pipelines, and agentic workflows.
-        Currently building production AI platforms at HP Inc.
+        AI engineer specializing in agentic workflows, retrieval pipelines, and domain-specific LLM systems.
+        Currently building production Agentic AI systems supporting microfluidic chip manufacturing at HP Inc.
       </p>
       <p className="bio-location">
-        Portland, OR - U.S. citizen, open to relocation
+        Portland, OR - U.S. citizen, open to relocation.
       </p>
       <div className="bio-socials" aria-label="social links">
         <a href="https://github.com/derek-williams00" target="_blank" rel="noopener noreferrer">
