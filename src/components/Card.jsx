@@ -7,9 +7,14 @@ const Card = ({ item }) => {
         <img src={item.image} className="card-img-top" alt={item.title} loading="lazy" />
       </a>}
       <div className="card-body">
-        <h6 className="card-time">{item.time}</h6>
-        <h5 className="card-title">{item.title}</h5>
-        <h6 className="card-subtitle">{item.subtitle}</h6>
+        <div className="card-header-row">
+          {item.logo && <img src={item.logo} alt={item.title + ' logo'} className="card-logo" loading="lazy" />}
+          <div className="card-header-info">
+            <h6 className="card-time">{item.time}</h6>
+            <h5 className="card-title">{item.title}</h5>
+            <h6 className="card-subtitle">{item.subtitle}</h6>
+          </div>
+        </div>
         <p className="card-text">{item.description}</p>
         <div className="card-links">
             {item.deployment_link && <span className="deployment-link">

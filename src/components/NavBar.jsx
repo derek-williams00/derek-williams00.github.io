@@ -1,22 +1,19 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
 
 const NavBar = () => {
   return (
-    <Navbar bg="dark" data-bs-theme="dark" fixed="top">
-      <Navbar.Brand href="#home">
-        <span className="my-brand">
-           Derek Williams
-        </span>
-      </Navbar.Brand>
-      <Nav className="mr-auto">
-        <Nav.Link href="#completed">Completed Projects</Nav.Link>
-        <Nav.Link href="#experience">Experience</Nav.Link>
-        <Nav.Link href="#wip">Works in Progress</Nav.Link>
-        <Nav.Link href="#contact">Contact</Nav.Link>
-      </Nav>
-    </Navbar>
+    <header>
+      <nav>
+        <a href="#home" className="nav-brand">Derek Williams</a>
+        <ul className="nav-links">
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#resume">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
   );
-}
+};
 
 export default NavBar;

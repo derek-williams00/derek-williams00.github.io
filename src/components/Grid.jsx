@@ -7,7 +7,7 @@ const Grid = ({id, title, items}) => {
           <h2>{title}</h2>
           <div className="row">
             {items.map((item, index) => (
-              <div key={index} className="col-sm-12 col-md-6 col-lg-4">
+              <div key={index} className="col-sm-12 col-md-6 col-lg-4 d-flex flex-column">
                 <Card item={item} />
               </div>
             ))}
