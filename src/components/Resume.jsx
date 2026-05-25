@@ -5,8 +5,8 @@ const Resume = () => {
     <section id="resume" className="grid-container">
       <h2>Resume</h2>
       <div className="resume-actions">
-        <a href="/Derek_Williams_Public_Resume_May_2026.pdf" target="_blank" rel="noopener noreferrer" className="btn-resume">Open PDF</a>
-        <a href="/Derek_Williams_Public_Resume_May_2026.pdf" download className="btn-resume">Download PDF</a>
+        <a href="/Derek_Williams_Public_Resume_May_25_2026.pdf" target="_blank" rel="noopener noreferrer" className="btn-resume">Open PDF</a>
+        <a href="/Derek_Williams_Public_Resume_May_25_2026.pdf" download className="btn-resume">Download PDF</a>
       </div>
 
       <div className="resume-highlights">

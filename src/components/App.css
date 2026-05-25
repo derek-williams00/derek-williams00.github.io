@@ -107,12 +107,27 @@ header nav {
   align-items: flex-start;
 }
 
+.bio-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.bio-header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 76px;
+  gap: 4px;
+  transform: translateY(8px);
+}
+
 .bio-image img {
   width: 76px;
   height: 76px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 24px;
   border: 2px solid var(--color-border);
 }
 
@@ -120,7 +135,8 @@ header nav {
   font-size: 1.875rem;
   font-weight: 700;
   color: var(--color-navy);
-  margin: 0 0 6px;
+  line-height: 1.05;
+  margin: 0;
   letter-spacing: -0.02em;
 }
 
@@ -128,7 +144,8 @@ header nav {
   font-size: 1rem;
   color: var(--color-slate);
   font-weight: 500;
-  margin: 0 0 20px;
+  line-height: 1.2;
+  margin: 0;
 }
 
 .bio p {
@@ -550,6 +567,10 @@ footer a:hover {
     padding: 80px 20px 48px;
   }
 
+  .bio-header {
+    align-items: flex-start;
+  }
+
   .bio h1 {
     font-size: 1.5rem;
   }
@@ -560,6 +581,13 @@ footer a:hover {
 
   .timeline-item {
     margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bio-header {
+    flex-direction: column;
+    gap: 12px;
   }
 }
 
